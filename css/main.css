@@ -95,82 +95,82 @@ body {
 }
 
 .stats__container {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .stats__container:nth-child(odd) {
-    background-color: var(--light-color);
+  background-color: var(--light-color);
 }
 
 .stats__container:nth-child(even) {
-    background-color: var(--medium-color);
+  background-color: var(--medium-color);
 }
 
 .stats__list {
-    line-height: 2;
+  line-height: 2;
 }
 
 .stats__title {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .stats__number {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Section: Process */
 .process {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 1.5rem;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
 }
 
 .process__step {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 20px;
-    background-color: var(--main-color);
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    line-height: 15px;
-    padding: 1rem;
-    transition: all 1s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 15px;
+  padding: 1rem;
+  transition: all 1s;
 }
 
 .process__step:hover {
-    background-color: var(--dark-color);
+  background-color: var(--dark-color);
 }
 
 .process__icon {
-    border-radius: 50%;
-    background: var(--dark-color);
-    color: var(--white-color);
-    padding: 2rem;
-    width: 140px;
-    height: 140px;
-    line-height: 70px;
-    text-align: center;
-    position: relative;
-    transition: all 1s;
+  border-radius: 50%;
+  background: var(--dark-color);
+  color: var(--white-color);
+  padding: 2rem;
+  width: 140px;
+  height: 140px;
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+  transition: all 1s;
 }
 
 .process__icon:hover {
-    background: var(--main-color);
-    width: 150px;
-    height: 150px;
-    line-height: 90px;
+  background: var(--main-color);
+  width: 150px;
+  height: 150px;
+  line-height: 90px;
 }
 
 /* Section: About */
 .biography {
   display: grid;
-  grid-template-areas: 
-    'biography__image biography__info biography__info'
-    'award-1 award-2 award-3';
+  grid-template-areas:
+    "biography__image biography__info biography__info"
+    "award-1 award-2 award-3";
   grid-gap: 1.2rem;
 }
 
@@ -181,7 +181,7 @@ body {
 .biography__info {
   grid-area: biography__info;
   border-left: 3px solid var(--main-color);
-  padding: 0.8rem
+  padding: 0.8rem;
 }
 
 .award-1 {
@@ -203,41 +203,89 @@ body {
   color: var(--main-color);
 }
 
+/* Section: Progress Bars */
+.progress {
+  overflow: hidden;
+  height: 20px;
+  background: var(--medium-color);
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+}
+
+.progress div {
+  height: 100%;
+  color: var(--white-color);
+  text-align: center;
+  background: var(--main-color);
+}
+
+/* Section: Logos */
+.logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.logos__image {
+  width: 70%;
+}
+
+/* Section: Testimonials */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.5rem;
+}
+
+.testimonial__list {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__content {
+  border: 1px solid var(--medium-color);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.testimonial__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+
+
 
 
 /* Footer */
 #main-footer {
-    background: var(--dark-color);
-    color: var(--white-color);
-    height: 5rem;
+  background: var(--dark-color);
+  color: var(--white-color);
+  height: 5rem;
 }
 
 .footer__content {
-    display: flex;
-    justify-content: space-between;
-    height: 5rem ;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
 }
 
 .social .fab {
-    margin-right: 1rem;
-    border: 2px var(--white-color) solid;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    line-height: 20px;
-    text-align: center;
-    padding: 0.5rem;
+  margin-right: 1rem;
+  border: 2px var(--white-color) solid;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .social .fab:hover {
-    background: var(--main-color);
+  background: var(--main-color);
 }
-
-
-
-
-
-
-
-

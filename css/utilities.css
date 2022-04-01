@@ -107,7 +107,7 @@ input[class^="button"]:hover {
 
 .background-dark {
   background: var(--dark-color);
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .background-light {
