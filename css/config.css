@@ -1,17 +1,35 @@
 /* Variables */
 
-:root { 
-    --website-width: 1280px;
-    --main-color : #FFBC00;
-    --light-color : #F4F4F4 ;
-    --medium-color : #CCC ;
-    --dark-color : #333 ;
-    --white-color : #fff;
-    --background-image : url('../images/showcase.jpg') ;
+:root {
+  --website-width: 1280px;
+  --main-color: #ffbc00;
+  --light-color: #f4f4f4;
+  --medium-color: #ccc;
+  --dark-color: #333;
+  --white-color: #fff;
+  --background-image: url("../images/showcase.jpg");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
 }
