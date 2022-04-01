@@ -1,5 +1,6 @@
 @import "config.css";
 @import "utilities.css";
+@import "item_grid.css";
 
 body {
   font-family: "Dosis", sans-serif;
