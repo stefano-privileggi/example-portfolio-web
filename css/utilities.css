@@ -1,63 +1,121 @@
-@import 'config.css';
+@import "config.css";
 
 .container {
-    max-width: var(--website-width);
-    padding: 0 1.5rem;
-    margin: auto;
-    overflow: hidden;
+  max-width: var(--website-width);
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
 }
 
 /* Buttons */
 .button {
-    display: inline-block;
-    padding: 0.8rem 2rem;
-    transition: all 0.5s;
-    border: none;
-    cursor: pointer;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
 }
 
 .button-main {
-    color: var(--dark-color);
-    background-color: var(--main-color);
+  color: var(--dark-color);
+  background-color: var(--main-color);
 }
 
 .button-light {
-    color: var(--dark-color);
-    background-color: var(--light-color);
+  color: var(--dark-color);
+  background-color: var(--light-color);
 }
 
 .button-dark {
-    color: var(--light-color);
-    background-color: var(--dark-color);
+  color: var(--light-color);
+  background-color: var(--dark-color);
 }
 
-button[class^='button']:hover, 
-a[class^='button']:hover,
-input[class^='button']:hover {
-    background-color: var(--main-color);
+button[class^="button"]:hover,
+a[class^="button"]:hover,
+input[class^="button"]:hover {
+  background-color: var(--main-color);
 }
 
 .lead {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
-.py-1 { padding: 1rem 0 ; }
-.py-2 { padding: 2rem 0 ; }
-.py-3 { padding: 3rem 0 ; }
-.py-4 { padding: 4rem 0 ; }
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
 
-.p-1 { padding: 1.5rem ; }
-.p-2 { padding: 2rem ; }
-.p-3 { padding: 3rem ; }
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
 
-.my-1 { margin: 1rem 0 ; }
-.my-2 { margin: 2rem 0 ; }
-.my-3 { margin: 3rem 0 ; }
-.my-4 { margin: 4rem 0 ; }
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
 
+.bottom-line {
+  width: 3rem;
+  height: 2px;
+  background: var(--main-color);
+  display: block;
+  margin: 0 auto 1rem auto;
+}
 
+.section__title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+/* Backgrounds */
+.background-main {
+  background: var(--main-color);
+  color: var(--main-color);
+}
+
+.background-dark {
+  background: var(--dark-color);
+  color: var(--dark-color);
+}
+
+.background-light {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+.background-medium {
+  background: var(--medium-color);
+  color: var(--medium-color);
+}
