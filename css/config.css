@@ -1,0 +1,17 @@
+/* Variables */
+
+:root { 
+    --website-width: 1280px;
+    --main-color : #FFBC00;
+    --light-color : #F4F4F4 ;
+    --medium-color : #CCC ;
+    --dark-color : #333 ;
+    --white-color : #fff;
+    --background-image : url('../images/showcase.jpg') ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,95 @@
+@import 'config.css';
+@import 'utilities.css';
+
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    background: var(--white-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;    
+}
+
+img {
+    width: 100%;
+}
+
+#header {
+    background: var(--background-image) center center/cover no-repeat ;
+    height: 100vh;
+    color: var(--white-color);
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__item {
+    padding: 1rem 1.5rem;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+}
+
+.navbar__link-current {
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+}
+
+.navbar__link:hover {
+    border-color: var(--medium-color);
+}
+
+.navbar__link-current {
+    border-color: var(--main-color);
+}
+
+.navbar__logo {
+    width: 70px;
+    height: 70px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+/* Header Content */
+.header__content {
+    text-align: center;
+    padding-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
